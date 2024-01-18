@@ -1,0 +1,297 @@
+body {
+    background-color: #F6F8D8;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+  }
+
+  #headline{
+    color :rgb(42, 150, 9)
+  }
+  
+  .orderhead{
+    background-color: white;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .orderheading{
+    background-color: rgb(48, 5, 39);
+  }
+
+  .ordersubheading{
+    background-color: rgb(141, 108, 134);
+  }
+
+  .orderheadingContent{
+    background-color: #f0e9ef;
+    color: black;
+  }
+
+  .contents{
+    background-color: #d3d4c6;
+    color: black;
+  }
+
+  .invoicebtn{
+    background-color: #F6F8D8;
+    color: rgb(83, 15, 38);
+    margin: 5px;
+    padding: 7px;
+    border: 2px solid rgb(240, 235, 235);
+    border-radius: 7px;
+  }
+
+  .invoicebtn:hover{
+    background-color: rgb(160, 150, 19);
+    color: white;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(255, 174, 0);
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 50px;
+  }
+
+  .grid-item {
+    background-color: white;
+    border: 1px solid rgb(96, 150, 9);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+  }
+
+  a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+
+  footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-align: center;
+    color: #f3edf0;
+    margin-top: 40px;
+    height: 5em;
+    background-color: #0f0109;
+  }
+
+
+  h2 span {
+    font-size: 30pt;
+    background-color: rgb(215, 228, 215);
+  }
+
+
+  .items-hover:hover {
+    background-color: rgb(132, 132, 132);
+    color: white;
+  }
+
+  nav a {
+    font-family: Cambria, Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #af3b7b;
+    padding-right: 15px;
+  }
+
+  nav a:hover {
+    color: rgb(204, 14, 87);
+  }
+
+  #navdiv nav {
+    float: right;
+  }
+
+  #logoDiv {
+    clear: right;
+    padding-bottom: 10px;
+  }
+
+  #logoLink {
+    max-width: 35%;
+    margin: auto;
+    display: flex;
+    flex: auto;
+  }
+
+  #logoImg {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex: auto;
+  }
+
+  #logoLinkSub {
+    max-width: 20%;
+    margin: auto;
+    display: flex;
+    flex: auto;
+  }
+
+  #logoImgSub {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex: auto;
+  }
+
+  #homeimg {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex: auto;
+    margin-top: 30px;
+  }
+
+  #topline {
+    height: 12px;
+    color: #5a0634;
+    background-color: #5a0634;
+    border: #5a0634;
+    margin: 0px 0px 25px 0px;
+  }
+
+  #bottomline {
+    height: 2px;
+    color: #5a0634;
+    background-color: #5a0634;
+    border: #5a0634;
+    margin: 0px 0px 25px 0px;
+  }
+
+  table, th, tr, td {
+    border: 2px solid white;
+  }
+
+  th, td {
+    padding: 6px;
+    text-align: left;
+  }
+
+  th {
+    color: rgb(255, 255, 255);
+    background-color: #6d4f63;
+    font-size: large;
+  }
+
+  .table {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .table table{
+      width: 90%;
+  }
+
+  .btnSubmt{
+    background-color: #ddcada;
+      color: rgb(51, 5, 36);
+      padding: 15px 25px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: larger;
+  }
+
+  fieldset {
+      border-radius: 10px;
+      background-color: #3f0525;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 40px; 
+      text-align: center;
+      align-items: center;
+  }
+
+  #addFormDiv{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  input[type=text],
+    select,
+    textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      width: 500px;
+    }
+
+    .option, .submitbtn {
+      max-width: 500px;
+    }
+
+    .submitbtn{
+      padding-top : 10px;
+    }
+
+
+    input[type=submit] {
+      background-color: #ddcada;
+      color: rgb(51, 5, 36);
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: orange;
+    }
+
+    #add_form{
+        width: 100%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #viewwProducts, #viewMyOrders{
+        margin-top: 15px;
+        background-color: #d8bc1b;
+        color: rgb(0, 0, 0);
+    }
+
+    .updatebtn, .deletebtn {
+      background-color: #3f0525;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      justify-content: center;
+    }
+
+    #placeOrder{
+      background-color: rgb(85, 145, 7);
+      color: aliceblue;
+    }
+
+    #quantity{
+      margin-bottom: 25px;
+    }
+
+    #details-data{
+      margin-bottom: 160px;
+    }
